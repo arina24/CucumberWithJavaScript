@@ -1,5 +1,5 @@
 Feature: Google searching
 Scenario: Search from the Search bar produces correct results 
 Given A Web browser at the Google search page
-When A user enters 'cucumber'
-Then Things related to 'cucumber' are shown on result page
+When The user enters "cucumber" into the search bar
+Then Links related to "cucumber" are shown on the results page
